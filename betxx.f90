@@ -1,15 +1,4 @@
-!       PROGRAM solving DU/Dt +  DE/Dx +DF/Dy = 0 using Runge Kutta...
-!	variable RK accuracy...in fact anything!
-!	plus hu/hussaini/manthey LDDRK coeffs put in 
-!	1d working at moment....
-!	2d with solid wall almost there... ie. checked major bits...10/3/98
-!	2d  working too (26/11/98)
 
-!	note buffer treatment not very elegant yet... but 
-!	will do.....for moment..ie should have NPINTS specified
-!	with DX DY calculated rather than as present.....
-!	put in split equations and buffering treatment.. all well
-!	 now working on variallble buffer regiin extent.... (2/12/98)
 
 ! basic array setup module     
         Module param_info
